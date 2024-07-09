@@ -1,0 +1,56 @@
+
+
+nav li{
+    list-style: none;
+}
+
+nav li{
+    font-weight: bold;
+}
+nav .active{
+    color: rgb(226, 103, 2);
+}
+
+.landing{
+    background-image: url('../imgs/main\ back.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.landing .dots{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.landing .dots span{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(99, 99, 99);
+}
+.landing .dots .active{
+    background-color:rgb(226, 103, 2);
+}
+.landing .content{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.landing .content{
+    h1{
+        span{
+            color:rgb(226, 103, 2);
+        }
+    }
+    .buttons{
+            button:first-child{
+                background-color: rgb(226, 103, 2);
+            }
+        }
+}
+.features .left h3 span{
+    color:rgb(226, 103, 2);
+}
